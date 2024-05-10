@@ -1,0 +1,94 @@
+/* styles.css */
+
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #292c33;
+  }
+  
+  .container {
+    margin: 20px auto;
+    max-width: 1000px;
+  }
+  
+  /* Estilos para la tabla */
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .table th,
+  .table td {
+    padding: 12px;
+    text-align: center;
+  }
+  
+  .table th {
+    background-color: #007bff;
+    color: #ffffff;
+  }
+  
+  .table tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  /* Estilos para botones de acciones */
+  .btn {
+    padding: 6px 12px;
+    border-radius: 4px;
+    margin-right: 5px;
+  }
+  
+  .btn-success {
+    background-color: #28a745;
+    color: #ffffff;
+  }
+  
+  .btn-danger {
+    background-color: #dc3545;
+    color: #ffffff;
+  }
+  
+  /* Estilos para tabla responsiva en dispositivos pequeños */
+  @media only screen and (max-width: 600px) {
+    .table th,
+    .table td {
+      padding: 8px;
+    }
+  }
+  
+  /* Estilos para el botón Nuevo */
+  .btn-primary {
+    background-color: #014ea0;
+    color: #fff;
+  }
+  
+  /* Estilos para íconos en botones */
+  .btn i {
+    margin-right: 5px;
+  }
+
+  .new-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #28a745; /* Verde */
+    color: #ffffff; /* Letras blancas */
+    text-decoration: none; /* Quitar subrayado */
+    border-radius: 5px; /* Bordes redondeados */
+  }
+
+  /* Estilos para alinear a la derecha */
+  .right-align {
+    text-align: right;
+  }
+  
+  .modal-dialog {
+    max-width: 40%;
+}
+
+.modal {
+  z-index: 3050; /* Asegura que el modal esté delante de otros elementos */
+}

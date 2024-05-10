@@ -1,0 +1,94 @@
+.boddy-create{
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    min-height: 80vh; /* Altura mínima de la pantalla */
+    min-width:100vh ;
+  
+}
+
+.container-create {
+width: 600px;
+padding: 20px;
+background-color: #fff;
+border-radius: 8px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+text-align: center;
+}
+
+.h1-create {
+font-size: 36px;
+margin-bottom: 20px;
+}
+
+.input-container-create {
+margin-bottom: 20px;
+text-align: left;
+}
+
+.label-create {
+display: block;
+margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="password"],
+textarea {
+width: 100%;
+padding: 10px;
+border-radius: 5px;
+border: 1px solid #ccc;
+box-sizing: border-box; /* Para incluir el padding en el ancho */
+margin-top: 5px;
+resize: vertical; /* Permitir redimensionar verticalmente el textarea */
+}
+
+button {
+width: 100%;
+padding: 10px;
+border: none;
+border-radius: 5px;
+background-color: #007bff;
+color: #fff;
+cursor: pointer;
+transition: background-color 0.3s ease;
+}
+
+button:hover {
+background-color: #0056b3;
+}
+/* Estilos para select personalizado */
+.custom-select {
+width: 100%;
+padding: 12px; /* Aumenta el padding para hacer el cuadro más grande */
+height: 60px;
+border-radius: 5px;
+border: 1px solid #ccc;
+box-sizing: border-box;
+margin-top: 5px;
+background-color: #fff;
+color: #333;
+font-size: 20px; /* Aumenta el tamaño de la fuente */
+line-height: 1.5;
+appearance: none;
+cursor: pointer;
+}
+
+/* Estilos al pasar el mouse sobre el select */
+.custom-select:hover {
+border-color: #666; /* Color del borde al pasar el mouse */
+}
+
+/* Estilos al enfocar el select */
+.custom-select:focus {
+border-color: #007bff; /* Color del borde al estar enfocado */
+box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Sombra al estar enfocado */
+}
+
+/* Estilos para las opciones del select */
+.custom-select option {
+padding: 10px; /* Espaciado interno */
+font-size: 16px; /* Tamaño de fuente */
+line-height: 1.5; /* Altura de línea */
+}
